@@ -104,12 +104,12 @@
     margin: 3rem auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
   .herocomponent h2 {
-    font-size: 4rem;
-    text-align: center;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    text-align: left;
+    line-height: 2.5rem;
   }
   .herocomponent .gradienttext {
     -webkit-text-fill-color: transparent;
@@ -120,16 +120,16 @@
   }
   .herocomponent p {
     margin-top: 2rem;
-    text-align: center;
+    text-align: left;
     color: #a7b5c4;
-    width: 70%;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1rem;
   }
   .herocomponent button {
     background-color: #0052cc;
     padding: 0.8rem 1.6rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 800;
     border: none;
     margin-top: 2rem;

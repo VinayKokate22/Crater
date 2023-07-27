@@ -24,7 +24,7 @@
   width: 25rem;
   background-color: rgba(152, 170, 196, 0.208);
   -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   border: 1px solid transparent;
   border-radius: 1rem;
   transition: 0.4s ease-in-out;
@@ -87,7 +87,7 @@
   margin-bottom: 3rem;
   background-color: rgba(152, 170, 196, 0.208);
   -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   padding: 2rem;
   border-radius: 1rem;
   width: 30rem;
@@ -140,7 +140,7 @@
     width: 20rem;
     background-color: rgba(152, 170, 196, 0.208);
     -webkit-backdrop-filter: blur(15px);
-            backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
     border: 1px solid transparent;
     border-radius: 1rem;
     transition: 0.4s ease-in-out;
@@ -204,7 +204,7 @@
     margin-bottom: 3rem;
     background-color: rgba(152, 170, 196, 0.208);
     -webkit-backdrop-filter: blur(15px);
-            backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
     padding: 2rem;
     border-radius: 1rem;
     width: 25rem;
@@ -241,23 +241,23 @@
   }
   .infosection .infosecton-wrapper h3 {
     width: 95%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(to right, #fff, #2f74f9);
     -webkit-background-clip: text;
   }
   .infosection .infosecton-wrapper .features {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
   }
   .infosection .infosecton-wrapper .features .signlefunction {
     padding: 1.5rem;
     width: 100%;
     background-color: rgba(152, 170, 196, 0.208);
     -webkit-backdrop-filter: blur(15px);
-            backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
     border: 1px solid transparent;
     border-radius: 1rem;
     transition: 0.4s ease-in-out;
@@ -303,9 +303,9 @@
   }
   .whycratersecton h3 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(321deg, #c58bff 23%, #e22a7c 87%);
     -webkit-background-clip: text;
@@ -321,14 +321,14 @@
     margin-bottom: 1rem;
     background-color: rgba(152, 170, 196, 0.208);
     -webkit-backdrop-filter: blur(15px);
-            backdrop-filter: blur(15px);
-    padding: 2rem;
+    backdrop-filter: blur(15px);
+    padding: 1rem;
     border-radius: 1rem;
     width: 100%;
   }
   .whycratersecton .comparisionwrapper .withoutcrater h4 {
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
   .whycratersecton .comparisionwrapper .withoutcrater .singlereason {
@@ -342,8 +342,8 @@
     margin-bottom: 0.5rem;
   }
   .whycratersecton .comparisionwrapper .withoutcrater .singlereason p {
-    width: 80%;
-    margin-left: 1.5rem;
+    width: 100%;
+    margin-left: 0rem;
     font-size: 1rem;
   }
-}/*# sourceMappingURL=infosection.css.map */
+} /*# sourceMappingURL=infosection.css.map */

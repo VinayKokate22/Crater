@@ -18,7 +18,7 @@ const Testimonial = () => {
       name: "Mitansh",
       img: "https://s3.ap-south-1.amazonaws.com/www.cratermedia/Manisha.jpeg",
       Pro: "Youtuber",
-      desc: "I was skeptical at first, but after using Crater for just a few weeks, I'm completely sold. The AI-powered features are incredibly accurate and make my life so much easier",
+      desc: "After using Crater for just a few weeks, I'm completely sold. The AI-powered features are incredibly accurate and make my life so much easier",
     },
   ];
   return (

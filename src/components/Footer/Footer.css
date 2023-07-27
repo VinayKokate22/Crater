@@ -23,11 +23,12 @@
     border-top: 1px solid deepskyblue;
     background-color: black;
     display: flex;
+    flex-direction: column;
     padding: 2rem 3rem;
     gap: 2rem;
   }
   .Footer > div {
-    width: 30%;
+    width: 100%;
   }
   .Footer h3 {
     font-size: 2rem;
@@ -36,6 +37,6 @@
   .Footer p {
     font-size: 1rem;
     margin-bottom: 1rem;
-    line-height: 2rem;
+    line-height: normal;
   }
 }/*# sourceMappingURL=Footer.css.map */

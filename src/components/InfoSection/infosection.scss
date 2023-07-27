@@ -263,16 +263,16 @@
       margin: auto;
       h3 {
         width: 95%;
-        font-size: 2.5rem;
+        font-size: 2rem;
         -webkit-text-fill-color: transparent;
         background-image: linear-gradient(to right, #fff, #2f74f9);
         -webkit-background-clip: text;
       }
       .features {
-        margin-top: 3rem;
+        margin-top: 2rem;
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1rem;
         .signlefunction {
           padding: 1.5rem;
           width: 100%;
@@ -332,9 +332,9 @@
 
     h3 {
       text-align: center;
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 800;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       -webkit-text-fill-color: transparent;
       background-image: linear-gradient(321deg, #c58bff 23%, #e22a7c 87%);
       -webkit-background-clip: text;
@@ -354,13 +354,13 @@
         margin-bottom: 1rem;
         background-color: rgba(152, 170, 196, 0.208);
         backdrop-filter: blur(15px);
-        padding: 2rem;
+        padding: 1rem;
         border-radius: 1rem;
         width: 100%;
 
         h4 {
           font-size: 1.5rem;
-          margin-bottom: 2rem;
+          margin-bottom: 1rem;
           text-align: center;
         }
         .singlereason {
@@ -373,8 +373,8 @@
             margin-bottom: 0.5rem;
           }
           p {
-            width: 80%;
-            margin-left: 1.5rem;
+            width: 100%;
+            margin-left: 0rem;
             font-size: 1rem;
           }
         }

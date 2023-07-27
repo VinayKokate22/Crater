@@ -1,0 +1,16 @@
+.navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  .logo {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  li {
+    list-style: none;
+    cursor: pointer;
+
+    padding: 0.3rem 1.6rem;
+    border-radius: 2rem;
+  }
+}

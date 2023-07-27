@@ -35,4 +35,87 @@
 .testimonial-section .testimonials b {
   display: block;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 1065px) {
+  .testimonial-section {
+    background: linear-gradient(to bottom, #110734 10%, rgb(6, 6, 48), black);
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial-section h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #fff, #2f74f9);
+    -webkit-background-clip: text;
+  }
+  .testimonial-section .testimonials {
+    padding: 2rem;
+    width: 30rem;
+    height: 15rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 2rem;
+    background-image: radial-gradient(circle at 0 -50%, rgba(255, 255, 255, 0) 3%, #079de0 44%, rgba(255, 255, 255, 0) 72%), radial-gradient(circle at 50% 100%, #a355ee, #3077eb);
+  }
+  .testimonial-section .testimonials img {
+    width: 9rem;
+    border-radius: 1rem;
+  }
+  .testimonial-section .testimonials p {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+  }
+  .testimonial-section .testimonials b {
+    display: block;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .testimonial-section {
+    background: linear-gradient(to bottom, #110734 10%, rgb(6, 6, 48), black);
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial-section h3 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #fff, #2f74f9);
+    -webkit-background-clip: text;
+  }
+  .testimonial-section .testimonials {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    width: 90%;
+    height: 15rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 2rem;
+    background-image: radial-gradient(circle at 0 -50%, rgba(255, 255, 255, 0) 3%, #079de0 44%, rgba(255, 255, 255, 0) 72%), radial-gradient(circle at 50% 100%, #a355ee, #3077eb);
+  }
+  .testimonial-section .testimonials img {
+    width: 10rem;
+    border-radius: 1rem;
+  }
+  .testimonial-section .testimonials p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .testimonial-section .testimonials b {
+    display: block;
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=testimonial.css.map */

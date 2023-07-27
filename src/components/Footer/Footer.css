@@ -16,4 +16,26 @@
   font-size: 1.2rem;
   margin-bottom: 1rem;
   line-height: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .Footer {
+    border-top: 1px solid deepskyblue;
+    background-color: black;
+    display: flex;
+    padding: 2rem 3rem;
+    gap: 2rem;
+  }
+  .Footer > div {
+    width: 30%;
+  }
+  .Footer h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .Footer p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+  }
 }/*# sourceMappingURL=Footer.css.map */

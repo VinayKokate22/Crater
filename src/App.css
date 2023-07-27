@@ -5,14 +5,6 @@
   color: #ccdae7;
   font-family: Inter, Arial, sans-serif;
 }
-@media screen and (max-width: 1000px) {
-  * {
-    font-size: 70%;
-    overflow-x: hidden;
-  }
-}
-@media screen and (max-width: 600px) {
-  * {
-    font-size: 50%;
-  }
+
+@media screen and (max-width: 1065px) {
 }

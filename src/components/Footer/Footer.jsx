@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div>
+    <div className="Footer">
       <div>
         <h3>Crater</h3>
         <p>
@@ -11,7 +11,8 @@ const Footer = () => {
         <p>© 2023 Crater - All Right Reserved.</p>
       </div>
       <div>
-        <p>Privacy Policy Terms & Conditions contact@thecrater.co</p>
+        <p>Privacy Policy Terms & Conditions </p>
+        <p>contact@thecrater.co</p>
       </div>
       <div>
         <p>

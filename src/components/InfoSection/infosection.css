@@ -41,6 +41,9 @@
   border: 1px solid #2f74f9;
   box-shadow: 0 0 100px 1px rgba(47, 114, 249, 0.4901960784);
 }
+.infosection .infosecton-wrapper .features .signlefunction p {
+  font-size: 1rem;
+}
 .infosection .extrainfo-wrapper {
   margin: 3rem auto;
   width: 85%;

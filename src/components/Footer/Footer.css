@@ -1,1 +1,19 @@
-/*# sourceMappingURL=Footer.css.map */
+.Footer {
+  border-top: 1px solid deepskyblue;
+  background-color: black;
+  display: flex;
+  padding: 4rem 5rem;
+  gap: 3rem;
+}
+.Footer > div {
+  width: 30%;
+}
+.Footer h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.Footer p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}/*# sourceMappingURL=Footer.css.map */

@@ -27,23 +27,10 @@ const InfoSection = () => {
       title: "Automation of taxes",
       desc: "Once you sync your accounts, our AI will handle the rest. It will help you file taxes in less than 20 minutes.",
     },
-
-    ,
   ];
   return (
     <>
       <div className="infosection">
-        {/* <div className="extrainfo-wrapper">
-          <div>
-            <h4>Get all your Platform Data. All in one place.</h4>
-            <img
-              src="https://s3.ap-south-1.amazonaws.com/www.cratermedia/website/insta_color.svg"
-              alt=""
-            />{" "}
-            <p> Youtube </p> <p>Instagram</p> <p>Twitch</p>{" "}
-            <p>Linkedin +more</p>
-          </div>
-        </div> */}
         <div className="infosecton-wrapper">
           <div>
             <h3>
@@ -89,37 +76,30 @@ const InfoSection = () => {
                   revenue opportunities
                 </p>
               </div>
-              {/* <div className="singlereason">
-                <h5> ⭕️ Costly Solutions</h5>
-                <p>
-                  Expensive management options and High expenditure on hiring
-                  managers or outsourcing
-                </p>
-              </div> */}
             </div>
 
             <div className="withoutcrater green">
               <h4>With Crater</h4>
 
               <div className="singlereason">
-                <h5> ✅ Manual Business Management</h5>
+                <h5> ✅ Automated Business Management</h5>
                 <p>
-                  Spend hours, Limited focus on Creativity and struggle to
-                  optimize margins
+                  Save time, Focus on creativity and increse margins by more
+                  than 30%
                 </p>
               </div>
               <div className="singlereason">
-                <h5> ✅ Manual Business Management</h5>
+                <h5> ✅ AI-powered Social Media Management</h5>
                 <p>
-                  Spend hours, Limited focus on Creativity and struggle to
-                  optimize margins
+                  Manage multiple Social Media accounts, AI-powered replies and
+                  ML-powered views and revenue predictor
                 </p>
               </div>
               <div className="singlereason">
-                <h5> ✅ Manual Business Management</h5>
+                <h5> ✅ AI-powered Financial Management</h5>
                 <p>
-                  Spend hours, Limited focus on Creativity and struggle to
-                  optimize margins
+                  Monitor and control finances and let AI file taxes in less
+                  than 10 minutes
                 </p>
               </div>
             </div>

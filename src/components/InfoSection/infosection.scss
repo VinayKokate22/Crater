@@ -274,7 +274,7 @@
         flex-wrap: wrap;
         gap: 1rem;
         .signlefunction {
-          padding: 1.5rem;
+          padding: 1rem;
           width: 100%;
           background-color: rgba(152, 170, 196, 0.178);
           backdrop-filter: blur(15px);
@@ -283,8 +283,8 @@
           transition: 0.4s ease-in-out;
 
           h4 {
-            font-size: 1.4rem;
-            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            margin-bottom: 0.7rem;
             -webkit-text-fill-color: transparent;
             background-image: linear-gradient(to right, #fff, #2f74f9);
             -webkit-background-clip: text;

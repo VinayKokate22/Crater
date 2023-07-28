@@ -18,22 +18,34 @@
     height: 20rem;
     border-radius: 1rem;
     display: flex;
+    align-items: center;
     gap: 2rem;
-
+    button {
+      width: 2rem;
+      height: 2rem;
+      background-color: transparent;
+      border: none;
+    }
     img {
       width: 15rem;
       border-radius: 1rem;
     }
-    p {
-      font-size: 1.5rem;
-      font-weight: 700;
-      line-height: 1.7rem;
-      margin-bottom: 3rem;
+    .reviewinformation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      p {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.7rem;
+      }
+      b {
+        display: block;
+        font-size: 2rem;
+      }
     }
-    b {
-      display: block;
-      font-size: 2rem;
-    }
+
     background-image: radial-gradient(
         circle at 0 -50%,
         rgba(255, 255, 255, 0) 3%,
@@ -59,26 +71,32 @@
       -webkit-background-clip: text;
     }
     .testimonials {
-      padding: 2rem;
+      padding: 1rem;
       width: 30rem;
       height: 15rem;
       border-radius: 1rem;
       display: flex;
-      gap: 2rem;
+      gap: 1rem;
 
       img {
         width: 9rem;
         border-radius: 1rem;
       }
-      p {
-        font-size: 1rem;
-        font-weight: 700;
-        line-height: 1rem;
-        margin-bottom: 2rem;
-      }
-      b {
-        display: block;
-        font-size: 1.3rem;
+      .reviewinformation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        height: 100%;
+        p {
+          font-size: 1rem;
+          font-weight: 700;
+          line-height: 1rem;
+        }
+        b {
+          display: block;
+          font-size: 1.1rem;
+        }
       }
       background-image: radial-gradient(
           circle at 0 -50%,
@@ -118,18 +136,22 @@
 
       img {
         width: 5rem;
+        margin-top: -3rem;
         border-radius: 1rem;
       }
-      p {
-        font-size: 1rem;
-        font-weight: 500;
-        line-height: 1rem;
-        margin-bottom: 1rem;
+      .reviewinformation {
+        p {
+          font-size: 1rem;
+          font-weight: 600;
+          line-height: 1rem;
+          margin-bottom: 1rem;
+        }
+        b {
+          display: block;
+          font-size: 1rem;
+        }
       }
-      b {
-        display: block;
-        font-size: 1rem;
-      }
+
       background-image: radial-gradient(
           circle at 0 -50%,
           rgba(255, 255, 255, 0) 3%,

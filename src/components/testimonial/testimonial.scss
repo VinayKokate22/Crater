@@ -1,6 +1,6 @@
 .testimonial-section {
   background: linear-gradient(to bottom, #110734 10%, rgb(6, 6, 48), black);
-  padding: 5rem 0;
+  padding: 7rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,6 +25,7 @@
       height: 2rem;
       background-color: transparent;
       border: none;
+      cursor: pointer;
     }
     img {
       width: 15rem;
@@ -36,13 +37,14 @@
       justify-content: space-between;
       height: 100%;
       p {
-        font-size: 1.5rem;
-        font-weight: 700;
+        font-size: 1.3rem;
+        font-weight: 600;
         line-height: 1.7rem;
       }
       b {
         display: block;
         font-size: 2rem;
+        color: #ffffff;
       }
     }
 
@@ -135,16 +137,16 @@
       gap: 1rem;
 
       img {
-        width: 5rem;
+        width: 4rem;
         // margin-top: -3rem;
         border-radius: 1rem;
       }
       .reviewinformation {
         p {
           font-size: 1rem;
-          font-weight: 600;
+          font-weight: 500;
           line-height: 1rem;
-          margin-bottom: 1rem;
+          margin-bottom: 0.5rem;
         }
         b {
           display: block;

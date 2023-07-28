@@ -1,6 +1,6 @@
 .testimonial-section {
   background: linear-gradient(to bottom, #110734 10%, rgb(6, 6, 48), black);
-  padding: 5rem 0;
+  padding: 7rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +28,7 @@
   height: 2rem;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 .testimonial-section .testimonials img {
   width: 15rem;
@@ -40,13 +41,14 @@
   height: 100%;
 }
 .testimonial-section .testimonials .reviewinformation p {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 600;
   line-height: 1.7rem;
 }
 .testimonial-section .testimonials .reviewinformation b {
   display: block;
   font-size: 2rem;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1065px) {
@@ -125,14 +127,14 @@
     background-image: radial-gradient(circle at 0 -50%, rgba(255, 255, 255, 0) 3%, #079de0 44%, rgba(255, 255, 255, 0) 72%), radial-gradient(circle at 50% 100%, #a355ee, #3077eb);
   }
   .testimonial-section .testimonials img {
-    width: 5rem;
+    width: 4rem;
     border-radius: 1rem;
   }
   .testimonial-section .testimonials .reviewinformation p {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   .testimonial-section .testimonials .reviewinformation b {
     display: block;

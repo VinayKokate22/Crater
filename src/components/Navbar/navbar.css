@@ -1,13 +1,32 @@
-.navbar > ul {
+.navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2rem 5rem;
 }
-.navbar > ul .logo {
+.navbar .logo {
   font-size: 2rem;
   font-weight: 900;
 }
-.navbar > ul li {
+.navbar .rightsection > ul {
+  display: flex;
+  align-items: center;
+}
+.navbar .rightsection > ul li::before {
+  content: "";
+  left: 0;
+  top: 30%;
+  position: absolute;
+  width: 0rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #1266e6;
+}
+.navbar .rightsection > ul li:hover::before {
+  width: 0.5rem;
+}
+.navbar li {
+  position: relative;
   list-style: none;
   cursor: pointer;
   padding: 0.3rem 1.6rem;
@@ -15,16 +34,35 @@
 }
 
 @media screen and (max-width: 1065px) {
-  .navbar > ul {
+  .navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 1.5rem;
+    padding: 2rem 2rem;
   }
-  .navbar > ul .logo {
+  .navbar .logo {
     font-size: 2rem;
     font-weight: 900;
   }
-  .navbar > ul li {
+  .navbar .rightsection > ul {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .rightsection > ul li::before {
+    content: "";
+    left: 0;
+    top: 30%;
+    position: absolute;
+    width: 0rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #1266e6;
+  }
+  .navbar .rightsection > ul li:hover::before {
+    width: 0.5rem;
+  }
+  .navbar li {
+    position: relative;
     list-style: none;
     cursor: pointer;
     padding: 0.3rem 1.6rem;
@@ -32,19 +70,38 @@
   }
 }
 @media screen and (max-width: 700px) {
-  .navbar > ul {
+  .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 1rem;
   }
-  .navbar > ul .logo {
+  .navbar .logo {
     font-size: 1.5rem;
     font-weight: 900;
   }
-  .navbar > ul li {
+  .navbar .rightsection > ul {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .rightsection > ul li::before {
+    content: "";
+    left: 0;
+    top: 30%;
+    position: absolute;
+    width: 0rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #1266e6;
+  }
+  .navbar .rightsection > ul li:hover::before {
+    width: 0.5rem;
+  }
+  .navbar li {
+    position: relative;
     list-style: none;
     cursor: pointer;
-    padding: 0rem 0rem;
+    padding: 0.3rem 1rem;
     border-radius: 2rem;
   }
 }/*# sourceMappingURL=navbar.css.map */

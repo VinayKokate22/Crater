@@ -1,5 +1,5 @@
 .herocomponent {
-  width: 70%;
+  width: 90%;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
@@ -16,11 +16,21 @@
     background-clip: text;
     padding-right: 0.25rem;
   }
+  .Typewriter {
+    display: inline;
+    .Typewriter__wrapper {
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(207deg, #e23b3b 23%, #6668eb 87%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      padding-right: 0.25rem;
+    }
+  }
   p {
     margin-top: 2rem;
     text-align: center;
     color: #a7b5c4;
-    width: 70%;
+    width: 50%;
     font-size: 1.2rem;
     line-height: 1.8rem;
   }

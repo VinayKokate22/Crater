@@ -23,7 +23,7 @@ const Testimonial = () => {
       desc: "After using Crater for just a few weeks, I'm completely sold. The AI-powered features are incredibly accurate and make my life so much easier",
     },
   ];
-  const [Review, SetReview] = useState(0);
+  const [Review, SetReview] = useState(2);
   return (
     <div className="testimonial-section">
       <h3>10,000+ Users have signed up!</h3>

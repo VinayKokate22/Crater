@@ -3,11 +3,17 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <ul>
-        <li className="logo">Crater</li>
-
-        {/* <li>Contact Us</li> */}
-      </ul>
+      <div className="leftsection">
+        <ul>
+          <li className="logo">Crater</li>
+        </ul>
+      </div>
+      <div className="rightsection">
+        <ul>
+          <li>About</li>
+          <li>FAQs</li>
+        </ul>
+      </div>
     </div>
   );
 };

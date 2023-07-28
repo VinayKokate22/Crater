@@ -1,12 +1,31 @@
-.navbar > ul {
+.navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2rem 5rem;
   .logo {
     font-size: 2rem;
     font-weight: 900;
   }
+  .rightsection > ul {
+    display: flex;
+    align-items: center;
+    li::before {
+      content: "";
+      left: 0;
+      top: 30%;
+      position: absolute;
+      width: 0rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background-color: #1266e6;
+    }
+    li:hover::before {
+      width: 0.5rem;
+    }
+  }
   li {
+    position: relative;
     list-style: none;
     cursor: pointer;
 
@@ -15,15 +34,34 @@
   }
 }
 @media screen and (max-width: 1065px) {
-  .navbar > ul {
+  .navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 1.5rem;
+    padding: 2rem 2rem;
     .logo {
       font-size: 2rem;
       font-weight: 900;
     }
+    .rightsection > ul {
+      display: flex;
+      align-items: center;
+      li::before {
+        content: "";
+        left: 0;
+        top: 30%;
+        position: absolute;
+        width: 0rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #1266e6;
+      }
+      li:hover::before {
+        width: 0.5rem;
+      }
+    }
     li {
+      position: relative;
       list-style: none;
       cursor: pointer;
 
@@ -33,19 +71,38 @@
   }
 }
 @media screen and (max-width: 700px) {
-  .navbar > ul {
+  .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 1rem;
     .logo {
       font-size: 1.5rem;
       font-weight: 900;
     }
+    .rightsection > ul {
+      display: flex;
+      align-items: center;
+      li::before {
+        content: "";
+        left: 0;
+        top: 30%;
+        position: absolute;
+        width: 0rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #1266e6;
+      }
+      li:hover::before {
+        width: 0.5rem;
+      }
+    }
     li {
+      position: relative;
       list-style: none;
       cursor: pointer;
 
-      padding: 0rem 0rem;
+      padding: 0.3rem 1rem;
       border-radius: 2rem;
     }
   }

@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 import "./hero.css";
 export const Hero = () => {
   return (
@@ -6,8 +7,21 @@ export const Hero = () => {
       <div className="herocomponent">
         <div>
           <h2>
-            AI-powered Business Manager{" "}
-            <span className="gradienttext">for Leaders</span>
+            AI-powered Business Manager <span className="gradienttext"></span>
+            <Typewriter
+              options={{
+                strings: [
+                  "for Leaders",
+                  "for Freelancers",
+                  "for Challengers",
+                  "for Rebels",
+                  "for Creators",
+                  "for Go-getters",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h2>
         </div>
         <p>

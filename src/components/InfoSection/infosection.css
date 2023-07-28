@@ -1,6 +1,6 @@
 .infosection {
   background: linear-gradient(to bottom, black 20%, rgb(19, 7, 59) 100%);
-  margin-top: 2rem;
+  margin-top: 7rem;
 }
 .infosection .infosecton-wrapper {
   width: 85%;
@@ -299,7 +299,7 @@
     width: 2rem;
   }
   .whycratersecton {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
   .whycratersecton h3 {
     text-align: center;

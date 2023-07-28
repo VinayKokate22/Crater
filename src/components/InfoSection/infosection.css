@@ -1,5 +1,5 @@
 .infosection {
-  background: linear-gradient(to bottom, black 20%, rgb(19, 7, 59) 100%);
+  background: linear-gradient(to bottom, #0d1017 20%, #110734 100%);
   margin-top: 7rem;
 }
 .infosection .infosecton-wrapper {
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 1065px) {
   .infosection {
-    background: linear-gradient(to bottom, black 20%, rgb(19, 7, 59) 100%);
+    background: linear-gradient(to bottom, #0d1017 20%, #110734 100%);
     margin-top: 2rem;
   }
   .infosection .infosecton-wrapper {
@@ -232,7 +232,7 @@
 }
 @media screen and (max-width: 700px) {
   .infosection {
-    background: linear-gradient(to bottom, black 20%, rgb(19, 7, 59) 100%);
+    background: linear-gradient(to bottom, #0d1017 20%, #110734 100%);
     margin-top: 2rem;
   }
   .infosection .infosecton-wrapper {
